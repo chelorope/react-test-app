@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "order/properties-alphabetical-order": true,
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+    "declaration-colon-space-after": "always",
+    "max-empty-lines": 1,
+    "max-line-length": 80,
+    "color-named": "never",
+    "length-zero-no-unit": true,
+    "string-quotes": "single",
+    "shorthand-property-no-redundant-values": true
+  }
+}
